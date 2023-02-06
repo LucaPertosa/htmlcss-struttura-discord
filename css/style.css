@@ -19,16 +19,13 @@ a {
 }
 .brd-dashed {
     border: 1px black dashed;
-
 }
 
 
 /* HEADER */
-header {
-    align-items: center;
-    /* debug */
+.background-img {
     background-color: aquamarine;
-    height: 50px;
+    padding: 1rem;
 }
 
 header .container {
@@ -52,4 +49,92 @@ nav .login {
     width: 20%;
     padding: 5px;
     text-align: right;
+}
+
+div.img {
+    padding: 2rem;
+    /* debug */
+    background-color: blue;
+    height: 550px;
+}
+.img .container {
+    width: 60%;
+    /* debug */
+    background-color: pink;
+    height: 100%;
+}
+/* MAIN */
+
+.light-bg{
+    padding: 2rem;
+    /* debug */
+    background-color: lightyellow;
+    height: 750px;
+}
+
+.dark-bg{
+    padding: 2rem;
+    /* debug */
+    background-color: lightgray;
+    height: 750px;
+}
+
+main .container {
+    height: 100%;
+}
+
+div.rev-container {
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}
+.cyan {
+    background-color: cyan;
+    height: 100%;
+    width: 65%;
+}
+
+.pink {
+    background-color: palevioletred;
+    height: 100%;
+    width: 35%;
+}
+
+.green {
+    background-color: green;
+    height: 100%;
+}
+
+.dark-bg-big{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* debug */
+    background-color: lightgray;
+    height: 950px;
+}
+
+footer {
+    height: 1000px;
+    background-color: darkslategray;
+    padding-top: 2rem;
+    border-bottom: 1px solid white;
+}
+footer div.flex {
+    height: 80%;
+}
+.big-col {
+    width: 40%;
+    background-color: lightcoral;
+}
+
+.col {
+    background-color: grey;
+    width: 15%;
+}
+
+.footer-banner {
+    height: 20%;
+    margin-top: 3rem;
+    border-top: 1px solid white;
 }
