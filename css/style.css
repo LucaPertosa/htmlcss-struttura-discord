@@ -1,0 +1,55 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+/* COMMON */
+a {
+    text-decoration: none;
+}
+.brd-dashed {
+    border: 1px black dashed;
+
+}
+
+
+/* HEADER */
+header {
+    align-items: center;
+    /* debug */
+    background-color: aquamarine;
+    height: 50px;
+}
+
+header .container {
+    justify-content: space-between;
+    /* debug */
+    background-color: yellow;
+}
+
+nav .logo {
+    width: 20%;
+    padding: 5px;
+}
+
+nav .nav {
+    width: 60%;
+    text-align: center;
+    padding: 5px;
+}
+
+nav .login {
+    width: 20%;
+    padding: 5px;
+    text-align: right;
+}
