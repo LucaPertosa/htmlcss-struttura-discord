@@ -29,6 +29,7 @@ a {
 }
 
 header .container {
+    font-size: 2rem;
     justify-content: space-between;
     /* debug */
     background-color: yellow;
@@ -66,14 +67,16 @@ div.img {
 /* MAIN */
 
 .light-bg{
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     /* debug */
     background-color: lightyellow;
     height: 750px;
 }
 
 .dark-bg{
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     /* debug */
     background-color: lightgray;
     height: 750px;
@@ -117,10 +120,10 @@ div.rev-container {
 footer {
     height: 1000px;
     background-color: darkslategray;
-    padding-top: 2rem;
+    padding-top: 1rem;
     border-bottom: 1px solid white;
 }
-footer div.flex {
+footer .container.flex {
     height: 80%;
 }
 .big-col {
@@ -134,7 +137,25 @@ footer div.flex {
 }
 
 .footer-banner {
-    height: 20%;
+    height: calc(20% - 3rem);
     margin-top: 3rem;
     border-top: 1px solid white;
+    align-items: flex-end;
+
+}
+
+footer .footer-banner .container{
+    height: 80%;
+    justify-content: space-between;
+    background-color: cyan;
+    align-items: center;
+}
+
+
+button.brd-dashed, .footer-banner .logo {
+    background-color: pink;
+    padding: 5px;
+    font-size: 2rem;
+    
+    
 }
